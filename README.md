@@ -1,4 +1,4 @@
-# YC Jobs Scraper
+# YC Intent Radar
 
 An automated scraper that pulls job listings and company data from YCombinator's Workatastartup platform. It bypasses login bottlenecks by utilizing authenticated sessions and ensures no duplicates are recorded by saving everything directly to a local SQLite database (`jobs.db`).
 
