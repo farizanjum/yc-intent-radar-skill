@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+yc-jobs-scraper/scripts/node_modules/
 
 # Environment Variables
 .env
@@ -7,21 +8,20 @@ node_modules/
 
 # Authentication State
 state.json
-scripts/state.json
+yc-jobs-scraper/scripts/state.json
 
 # Local Database
 jobs.db
 jobs.db-journal
-scripts/jobs.db
-scripts/jobs.db-journal
+yc-jobs-scraper/scripts/jobs.db
+yc-jobs-scraper/scripts/jobs.db-journal
 
-# Output/Export files
+# Output files
 radar_candidates.json
-scripts/radar_candidates.json
+yc-jobs-scraper/scripts/radar_candidates.json
 
-# Private OpenClaw Skills
+# Private Skills
 yc_intent_radar_skill.md
-radar_prospector_skill.md
 
 # Logs
 npm-debug.log*
