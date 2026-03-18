@@ -12,6 +12,9 @@ state.json
 jobs.db
 jobs.db-journal
 
+# Output files
+radar_candidates.json
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
