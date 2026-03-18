@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+
+# Authentication State
+state.json
+scripts/state.json
+
+# Local Database
+jobs.db
+jobs.db-journal
+scripts/jobs.db
+scripts/jobs.db-journal
+
+# Output/Export files
+radar_candidates.json
+scripts/radar_candidates.json
+
+# Private OpenClaw Skills
+yc_intent_radar_skill.md
+radar_prospector_skill.md
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
