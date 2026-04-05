@@ -1,5 +1,7 @@
 # YC Intent Radar
 
+<img width="1280" height="640" alt="yc-intent-radar-cover" src="https://github.com/user-attachments/assets/2328ae2b-1b5d-45ad-8604-b90721b8d398" />
+
 An automated scraper that pulls job listings and company data from YCombinator's Workatastartup platform. It bypasses login bottlenecks by utilizing authenticated sessions and ensures no duplicates are recorded by saving everything directly to a local SQLite database (`jobs.db`).
 
 ## Features
