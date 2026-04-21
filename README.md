@@ -4,6 +4,38 @@
 
 An automated scraper that pulls job listings and company data from YCombinator's Workatastartup platform. It bypasses login bottlenecks by utilizing authenticated sessions and ensures no duplicates are recorded by saving everything directly to a local SQLite database (`jobs.db`).
 
+## Installation
+
+### Prerequisites
+
+You need [Node.js](https://nodejs.org/) installed. It comes with `npx` built in.
+
+### Option 1: npx (All Agents)
+
+```bash
+npx "@opendirectory.dev/skills" install yc-intent-radar-skill --target claude
+```
+
+Supported `--target` values: `claude`, `gemini`, `codex`, `opencode`, `anti-gravity`, `openclaw`, `hermes`
+
+### Option 2: Native Plugin (Claude Code Only)
+
+Run these two commands inside your Claude Code terminal:
+
+```bash
+/plugin marketplace add Varnan-Tech/opendirectory
+/plugin install yc-intent-radar-skill@opendirectory-marketplace
+```
+
+### Option 3: Claude Desktop App
+
+**Step 1: Download**
+Click **Code → Download ZIP** on this repo's GitHub page.
+
+**Step 2: Install**
+1. Open Claude Desktop > Customize > Skills > **+** > Upload a skill
+2. Drop the downloaded zip or extracted folder
+
 ## Features
 - **Deduplication:** Utilizes `better-sqlite3` to store state, ensuring you never scrape the same job twice.
 - **Robust Extraction:** Identifies hidden JSON payloads on YC pages to grab accurate backend `job_id` values.
